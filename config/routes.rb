@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/bubbles', to: 'bubbles#user_bubbles'
   get '/user', to: 'sessions#current_user'
   post '/bubble/new', to: 'bubbles#new_bubble'
+  get '/', to: 'application#home'
   # resources :bubbles
   # resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
