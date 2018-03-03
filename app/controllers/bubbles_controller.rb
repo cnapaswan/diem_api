@@ -20,5 +20,9 @@ class BubblesController < ApplicationController
       render json:{"server": "doesnt love you"}
     end
   end
+
+  def home
+    "hi"
+  end
 end
   
