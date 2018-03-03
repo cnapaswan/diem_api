@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#user_login'
   delete '/logout', to: 'sessions#user_logout'
   get '/bubbles', to: 'bubbles#user_bubbles'
+  get '/user', to: 'sessions#current_user'
+  post '/bubble/new', to: 'bubbles#new_bubble'
   # resources :bubbles
   # resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
