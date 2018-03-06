@@ -1,24 +1,12 @@
-# README
+# DIEM_API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+i am a back-end app for Diem APP https://github.com/cnapaswan/diem_app
 
-Things you may want to cover:
+# Tech
 
-* Ruby version
+- Ruby on Rails
+- ActiveRecord
+- PostgreSQL
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
