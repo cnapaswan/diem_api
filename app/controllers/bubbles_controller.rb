@@ -7,7 +7,7 @@ class BubblesController < ApplicationController
 
   def new_bubble
     b = Bubble.new
-    b.fulldate = Date.today.utc
+    b.fulldate = Date.today
     b.day = params[:day]
     b.month = params[:month]
     b.year = params[:year]
