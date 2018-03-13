@@ -15,11 +15,10 @@ class BubblesController < ApplicationController
       update_bubble.note = params[:note]
       update_bubble.user_id = params[:user_id]
       if update_bubble.save
-        render json:b
+        render json:update_bubble
       else
         render json:{"server": "doesnt love you"}
       end
-
     else
       b = Bubble.new
       b.fulldate = Date.today
@@ -34,8 +33,6 @@ class BubblesController < ApplicationController
       else
         render json:{"server": "doesnt love you"}
       end
-
-
     end   
   end
 
