@@ -9,7 +9,7 @@ class BubblesController < ApplicationController
 
     today_entered = Bubble.find_by(fulldate: Date.today, user_id: params[:user_id])
 
-    if today_entered?
+    if today_entered
       update_bubble = today_entered
       update_bubble.mood = params[:mood]
       update_bubble.note = params[:note]
