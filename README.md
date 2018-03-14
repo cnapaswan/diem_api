@@ -1,6 +1,6 @@
 # DIEM_API
 
-i am a back-end app for Diem APP https://github.com/cnapaswan/diem_app
+i am a back-end app for [Diem APP](https://github.com/cnapaswan/diem_api)
 
 # Tech
 
@@ -8,5 +8,6 @@ i am a back-end app for Diem APP https://github.com/cnapaswan/diem_app
 - ActiveRecord
 - PostgreSQL
 
+## License
 
-
+MIT © [cnapaswan](https://github.com/cnapaswan)
